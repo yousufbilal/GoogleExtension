@@ -1,0 +1,26 @@
+.input-bar{
+    padding: auto;
+}
+
+#save-btn {
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 8px;
+}
+
+#delete-btn{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid rgb(231, 50, 50);
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px #333;
+  overflow: hidden;
+  transition: .3s;
+}
+
+#list{
+  list-style-type: square;
+}

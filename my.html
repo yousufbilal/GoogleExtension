@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/my.css">   
-    <!-- Add any additional meta tags, CSS links, or JavaScript links here -->
+    <link rel="stylesheet" href="/style.css">   
 </head>
 <body>
-    <input type="text" placeholder="enter the link" id="Input-bar"/>
-    <button id="save-btn" > Save Button </button>
-
-    <!-- Add your content, structure, and elements as needed -->
-
-    <!-- Add any JavaScript code at the end of the body or link external scripts here -->
+    <input type="text"  placeholder="enter the link" id="userInput"  />
+    <button id="save-btn"  > Save Button </button>
+    <button id="delete-btn" onclick="deleteFunction()"> Delete Button</button>
+    <p id="paragraph"></p>
+    <p id="arrayFromLocalStorage">here is the stored data in the array </p>
+    <script src="/my.js"></script>
 </body>
 </html>
