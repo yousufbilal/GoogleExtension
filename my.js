@@ -14,7 +14,6 @@ arrayStorage()// data is stored
 arrayStorageRet() // data is retrived but how do i check 
 })
 
-
 function arrayStorage(){
     let arrayConversion = JSON.stringify(emptyArray)
     localStorage.setItem("retriveArray",arrayConversion)
@@ -22,8 +21,10 @@ function arrayStorage(){
 
 function arrayStorageRet(){
    let dataRetrived= localStorage.getItem("retriveArray")
-
     let arrayConversionParse= JSON.parse(dataRetrived)
     arrayFromParse.innerHTML= `<p> stored data in array ${arrayConversionParse}</p>`;
+}
 
+function deleteFunction(){
+    let deleteArray= localStorage.clear(arrayFromParse)
 }
