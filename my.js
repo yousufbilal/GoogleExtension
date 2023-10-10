@@ -9,7 +9,7 @@ let emptyArray = []
 saveButton.addEventListener("click" ,function(){
 let userdata=userInput.value
 emptyArray.push(userdata)
-para.innerHTML=`<p id="test"> ${emptyArray}</p>`
+para.innerHTML=`<p id="arrayList"> ${emptyArray} </p>`
 arrayStorage()// data is stored 
 arrayStorageRet() // data is retrived but how do i check 
 })
